@@ -2,8 +2,9 @@ package Test2;
 
 public class Main {
     public static void main(String[] args) {
-        Camera camera = new DCamera();
+        Camera camera = new FlashCamera();
 
-        camera.take("사진/동영상","메모리");
+        camera.take("video","메모리");// method: picture, video
+
     }
 }
